@@ -2,15 +2,12 @@
     "name": "minurl",
     "private": true,
     "scripts": {
-        "dev": "pnpm -r --parallel dev",
-        "build": "pnpm -r build"
+        "dev": "turbo dev",
+        "build": "turbo build"
     },
-    "devEngines": {
-        "packageManager": {
-            "name": "pnpm",
-            "version": "^11.0.9",
-            "onFail": "download"
-        }
-    },
-    "type": "module"
+    "packageManager": "pnpm@11.0.9",
+    "type": "module",
+    "devDependencies": {
+        "turbo": "^2.11.7"
+    }
 }
