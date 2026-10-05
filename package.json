@@ -1,0 +1,16 @@
+{
+    "name": "minurl",
+    "private": true,
+    "scripts": {
+        "dev": "pnpm -r --parallel dev",
+        "build": "pnpm -r build"
+    },
+    "devEngines": {
+        "packageManager": {
+            "name": "pnpm",
+            "version": "^11.0.9",
+            "onFail": "download"
+        }
+    },
+    "type": "module"
+}

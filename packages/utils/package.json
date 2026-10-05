@@ -1,0 +1,19 @@
+{
+    "name": "@minurl/utils",
+    "main": "index.js",
+    "private": true,
+    "exports": {
+        ".": "./src/index.ts"
+    },
+    "scripts": {
+        "dev": "tsc --watch",
+        "build": "tsc"
+    },
+    "type": "module",
+    "devDependencies": {
+        "typescript": "^7.0.2"
+    },
+    "dependencies": {
+        "zod": "^4.6.5"
+    }
+}
